@@ -17,6 +17,11 @@ interface {{ interface}}
 """
 
 def switch_parse(**row):
+   '''Connects to a HP Procurve switch using the netmiko library
+    Scrapes port config, LLDP Neighbors, Interfaces Status, Transceiver Status, Modules and POE Status
+    Writes out CSV with port config including Tagged, Untagged, Trunk, LLDP Neighbors, Interface Type and Statu(UP|DOWN), and POE status
+    Also writes out text config, module information and POE information.
+    '''
     try:
         try: # Try SSH first
             

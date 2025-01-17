@@ -11,7 +11,7 @@ Environment Variables, Input|Getpass, or some other method could be used if secu
 
 ### Prerequisites
 
-The script utilizes the netmiko library to connect to and manipulate devices, as well as the ttp library to parse the running config.\
+The script utilizes the netmiko library to connect to and manipulate devices, as well as the ttp library to parse the running config.
 
 pip install -r requirements.txt
 

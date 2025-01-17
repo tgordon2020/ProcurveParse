@@ -162,6 +162,10 @@ def switch_parse(**row):
 failures = []
 
 def threadstart():
+    '''Connection worker function
+    Iterates over CSV file which includes a mandatory IP column containing the switch device IP address
+    Creates a new thread for each device and passes it to the switch_parse function.
+    '''
     threads = []
     with open("switches.csv") as switch_csv:
         rows = csv.DictReader(switch_csv)

@@ -30,5 +30,5 @@ The script will generate several files in the folder in which it is run.
 DeviceName-IP.csv - This is the ouput CSV file that contains the port configs and statistics\
 DeviceName.txt - Text copy of "show run structured"\
 DeviceName-module.txt - Output of the show module command\
-DeviceName-poe - Output of the poe statistics\
+DeviceName-poe - Output of the poe statistics
 

@@ -42,6 +42,7 @@ def switch_parse(**row):
         int_transceivers = connect.send_command("show int transceiver")
         module = connect.send_command("show module")
         poe = connect.send_command("show power-over-ethernet brief")
+        connect.disconnect()
 
                 
         ### generate int transceiver dictionary object ###

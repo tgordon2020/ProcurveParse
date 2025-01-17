@@ -32,3 +32,5 @@ DeviceName.txt - Text copy of "show run structured"\
 DeviceName-module.txt - Output of the show module command\
 DeviceName-poe.txt - Output of the poe statistics
 
+### DISCLAIMER
+Use at your own risk.  I suggest editing the switches.csv to only include a single switch for testing and verification.
